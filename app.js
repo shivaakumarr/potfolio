@@ -34,12 +34,12 @@ function project(){
     let sec = document.getElementById("same");
     let content ="<div class=skil>";
         content+="<h2>Projects:</h2>";
-     content+="<button onclick =mini()>mini</button>";
+     content+="<button id = btn1 onclick =mini()>mini</button>";
      content+="<br>";
      content+="<br>";
      content+="<div id=mini></div>";
      content+="<br>";
-     content+="<button onclick = major()>major</button>";
+     content+="<button id = btn2 onclick = major()>major</button>";
      content+="<br>";
      content+="<br>";
      content+="<div id=major></div>";
@@ -50,9 +50,12 @@ function project(){
 function mini(){
     let a = document.getElementById("mini");
     let content 
-    content = "<a href=https://shivaakumarr.github.io/guessing/><button>View</button></a>";
+    content = "<a href=https://shivaakumarr.github.io/guessing/><button id = btn1 >View</button></a>";
     a.innerHTML=content;
     a.style.display ="block";
+    let btn =document.getElementById("btn1");
+    btn.style.backgroundColor="#000";
+    btn.style.color="#fff";
   }
  function contact(){
     home();
@@ -63,6 +66,9 @@ function mini(){
     let content ="<p> (It is under construction.)</p>";
     s.innerHTML=content;
     s.style.display ="block";
+     let btn =document.getElementById("btn2");
+    btn.style.backgroundColor="#000";
+    btn.style.color="#fff";
  }
  function educate(){
     let sec = document.getElementById("same");

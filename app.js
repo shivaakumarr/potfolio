@@ -6,6 +6,8 @@ function home(){
     let content = "<p> Welcome to my portfolio! Iam <strong>Shiva Kumar</strong>, a dedicated Aspring <strong>SWE</strong>. In my portfolio, you will find curated section of <strong>Projects</strong> that showcase my <strong>Skills</strong> in <strong>Java</strong> as well as <strong>Web Development.</strong>  </p>";
     sec.innerHTML = content;
     foot.style.display = "none";
+    let name ="<h5>MADDELA SHIVA KUMAR</h5>";
+    nam.innerHTML = name;
 }
 function skills(){
     let sec = document.getElementById("same");

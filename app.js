@@ -1,4 +1,5 @@
 let foot =document.getElementById("foot");
+let nam =document.getElementById("name");
 
 function home(){
     let sec = document.getElementById("same");
@@ -29,6 +30,7 @@ function skills(){
     content+="</div>";
     sec.innerHTML = content;
     foot.style.display = "none";
+     nam.style.display = "none";
 }
 function project(){
     let sec = document.getElementById("same");
@@ -46,6 +48,7 @@ function project(){
      content+="</div>";
      sec.innerHTML =content;
      foot.style.display = "none";
+    nam.style.display = "none";
 }
 function mini(){
     let a = document.getElementById("mini");
@@ -75,6 +78,7 @@ function mini(){
     let content = "<p>Iam, An Upcomig Engnieer from  <strong>GNI.</strong></p>";
     sec.innerHTML = content;
     foot.style.display = "none";
+     nam.style.display = "none";
 
  }
    

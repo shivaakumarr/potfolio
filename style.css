@@ -170,4 +170,21 @@ button{
     border: 1px solid black;
     border-radius: 13px;
 }
+#pic{
+   height: fit-content;
+   width: fit-content;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px black;
+    overflow: hidden;
+    
+}
+#imgdiv{
+    display: flex;
+    justify-content: center;
+   
+}
+.name{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
     

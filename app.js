@@ -1,13 +1,13 @@
 let foot =document.getElementById("foot");
 let nam =document.getElementById("name");
- let name;
+
 
 function home(){
     let sec = document.getElementById("same");
     let content = "<p> Welcome to my portfolio! Iam <strong>Shiva Kumar</strong>, a dedicated Aspring <strong>SWE</strong>. In my portfolio, you will find curated section of <strong>Projects</strong> that showcase my <strong>Skills</strong> in <strong>Java</strong> as well as <strong>Web Development.</strong>  </p>";
     sec.innerHTML = content;
     foot.style.display = "none";
-    name ="<h5>MADDELA SHIVA KUMAR</h5>";
+    let name ="<h5>MADDELA SHIVA KUMAR</h5>";
     nam.innerHTML = name;
    nam.style.display = "block";
  

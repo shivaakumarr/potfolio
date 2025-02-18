@@ -9,6 +9,8 @@ function home(){
     foot.style.display = "none";
     name ="<h5>MADDELA SHIVA KUMAR</h5>";
     nam.innerHTML = name;
+   nam.style.display = "block";
+ 
 }
 function skills(){
     let sec = document.getElementById("same");
